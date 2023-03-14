@@ -1,0 +1,8 @@
+version: 2
+macros:
+- name: "adder"
+  arguments:
+  - name: "col"
+    type: "int"
+  macroType: "expression"
+  description: "Convert cents to dollars"
