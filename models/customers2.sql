@@ -1,10 +1,12 @@
 WITH customers AS (
 
-  SELECT * 
+  SELECT {{ adder('id') }}
   
   FROM {{ ref('raw_customers2')}}
 
 ),
+
+
 
 SELECT * 
 
