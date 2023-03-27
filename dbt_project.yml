@@ -20,8 +20,3 @@ clean-targets:
 
 require-dbt-version: [">=1.0.0", "<2.0.0"]
 
-models:
-  proj2:
-    models2:
-      materialized: 'table'
-
