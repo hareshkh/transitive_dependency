@@ -8,7 +8,9 @@ WITH customers AS (
 
 reformat AS (
 
-  SELECT {{ transitive_dependency.adder('id') }} 
+  SELECT {{ transitive.adder('id') }} AS customer_id,
+  first_name,
+  last_name
 
   FROM customers
 
