@@ -1,4 +1,4 @@
-name: 'proj2'
+name: 'transitive_dependency'
 
 config-version: 2
 version: '0.1'
