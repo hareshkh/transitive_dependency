@@ -8,7 +8,7 @@ WITH customers AS (
 
 reformat AS (
 
-  SELECT {{ proj2.adder('id') }} 
+  SELECT {{ transitive_dependency.adder('id') }} 
 
   FROM customers
 
